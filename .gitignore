@@ -1,0 +1,29 @@
+# Ignorar o ambiente virtual (venv)
+venv/
+*.venv
+
+# Ignorar logs do ML (mlruns)
+mlruns/
+
+# Ignorar arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de configuração do VS Code (caso use o editor)
+.vscode/
+
+# Ignorar arquivos de configuração de IDEs como PyCharm
+.idea/
+
+# Ignorar arquivos do sistema operacional (caso esteja no Windows ou Mac)
+Thumbs.db
+.DS_Store
+
+# Ignorar arquivos temporários de editor
+*.swp
+*.bak
+*.tmp
+
+# Ignorar arquivos de configuração sensíveis (exemplo: variáveis de ambiente)
+.env
